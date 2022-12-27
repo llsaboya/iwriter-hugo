@@ -37,6 +37,8 @@
 <!-- twitter card -->
 {{ template "_internal/twitter_cards.html" . }}
 
+{{ partialCached "datasets/twitter-card.html" . }}
+
 <!-- opengraph -->
 {{ template "_internal/opengraph.html" . }}
 
